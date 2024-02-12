@@ -29,6 +29,9 @@ body{
         text-shadow: none;
     }
 }
+.greetings > span:nth-child(1){
+    animation-delay: 0s ;
+}
 .greetings > span:nth-child(2){
     animation-delay: .2s ;
 }
@@ -85,6 +88,12 @@ body{
 }
 .greetings > span:nth-child(20){
     animation-delay: .38s;
+}
+.greetings > span:nth-child(21){
+    animation-delay: .40s;
+}
+.greetings > span:nth-child(22){
+    animation-delay: .42s;
 }
 
 .description{
